@@ -37,3 +37,7 @@ keymap("v", "p", '"_dP', opts) -- overides paste buffer to last cut buffer
 keymap("x", "J", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<leader>j", "<ESC>", opts)
+
+-- Telescope --
+keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
+keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
