@@ -47,6 +47,7 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
   use 'JoosepAlviste/nvim-ts-context-commentstring' -- type of comments to use
+  use "lewis6991/gitsigns.nvim"
 
   use "folke/tokyonight.nvim"   -- colorscehme
   use "LunarVim/darkplus.nvim"
