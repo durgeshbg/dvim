@@ -14,10 +14,11 @@ vim.g.maplocalleader = " "
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- Navigate buffers
-keymap("n", ">", ":bn<CR>", opts)
-keymap("n", "<", ":bp<CR>", opts)
+keymap("n", "L", ":bn<CR>", opts)
+keymap("n", "H", ":bp<CR>", opts)
+keymap("n", "<leader>w", ":Bdelete<CR>", opts)
 
-keymap("n", "H", ":nohlsearch<CR>", opts)
+keymap("n", "<leader>h", ":nohlsearch<CR>", opts)
 
 -- Insert --
 keymap("i", "jj", "<ESC>", opts)
