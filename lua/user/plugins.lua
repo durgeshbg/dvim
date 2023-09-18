@@ -47,7 +47,7 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
   use 'JoosepAlviste/nvim-ts-context-commentstring' -- type of comments to use
-  use "lewis6991/gitsigns.nvim"
+  use "lewis6991/gitsigns.nvim"  -- gitsigns
 
   use "folke/tokyonight.nvim"   -- colorscehme
   use "LunarVim/darkplus.nvim"
@@ -72,8 +72,13 @@ return packer.startup(function(use)
   use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
   use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code actions
 
+  -- nvim-tree
   use "nvim-tree/nvim-tree.lua"
   use "nvim-tree/nvim-web-devicons"
+
+  -- Bufferline
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
